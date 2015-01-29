@@ -28,17 +28,6 @@ function initializePage() {
 	$("#submitBtn").click(updateProject);
 }
 
-//function to handle when the user clicks submit
-function updateProject(e) {
-   var projectID = $('#project').val();
-   $(projectID).animate({
-      width: $('#width').val()
-   });
-
-   var newText = $('#description').val();
-   $(projectID + " .project-description").text(newText);
-}
-
 function projectClick(e) {
 	//For debugging purposes
 	console.log("project clicked");

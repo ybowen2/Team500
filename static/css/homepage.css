@@ -2,27 +2,48 @@
     Wes, Kathy, Yashna
     1/28/15
 */
+
 .container {
+    padding: 2%;
+    width: 67%; /* fill 67% width of the page */
     box-shadow: 0px 0px 5px #888888;
-    border-radius: 10   px;
+    border-radius: 10px;
 }
 
-/* This controls the entire date-time class */
+/************ date-time class *****************/
 .date-time {
+    padding: 2%;
     text-align: center;
-    background: url("../images/");
     box-shadow: 0px 0px 5px #888888; /* adds a shadow behind the object (x offset, y offset, blur radius) */
     border-radius: 10px; /* rounds the corners */
 }
 .date-time h1 {
-    font-size: 4em;
+    font-size: 3em;
 }
-
-/* This controls the paragraphs of the date-time class */
 .date-time p {
-    font-size: 3em; /* Xem = (# of px) / 14 */
+    font-size: 2em; /* Xem = (# of px) / 14 */
     color: #7E36D6;
 }
+
+
+/*********** icons ***************/
+.top-row, .bot-row {
+    padding: 2%;
+    width: 100%;
+}
+.icon {
+    padding: 4%; /* padding between each icon */
+    width: 50%;
+    float: left; /* this allows the icons to be next to each other */
+}
+.icon img {
+    width: 100%;
+}
+
+
+
+
+
 
 .jumbotron:after {
      content:"";
