@@ -1,0 +1,43 @@
+/** CSS File for the homepage.
+    Wes, Kathy, Yashna
+    1/28/15
+*/
+.container {
+    box-shadow: 0px 0px 5px #888888;
+    border-radius: 10   px;
+}
+
+/* This controls the entire date-time class */
+.date-time {
+    text-align: center;
+    background: url("../images/");
+    box-shadow: 0px 0px 5px #888888; /* adds a shadow behind the object (x offset, y offset, blur radius) */
+    border-radius: 10px; /* rounds the corners */
+}
+.date-time h1 {
+    font-size: 4em;
+}
+
+/* This controls the paragraphs of the date-time class */
+.date-time p {
+    font-size: 3em; /* Xem = (# of px) / 14 */
+    color: #7E36D6;
+}
+
+.jumbotron:after {
+     content:"";
+     background: url("../images/lorempixel.jumbotron.jpeg");
+     opacity: 0.2;
+     top: 0;
+     left: 0;
+     bottom: 0;
+     right: 0;
+     position: absolute;
+     z-index: -1;	
+}
+
+/* Defines a style for paragraph tags with class active tthat are
+   descendants of a class jumbotron*/
+.jumbotron p.active  {
+     color: #1f6ddd; //change the color
+}
