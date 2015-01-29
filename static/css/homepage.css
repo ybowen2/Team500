@@ -5,7 +5,7 @@
 
 .container {
     padding: 2%;
-    width: 67%; /* fill 67% width of the page */
+    width: 90%; /* fill 67% width of the page */
     box-shadow: 0px 0px 5px #888888;
     border-radius: 10px;
 }
@@ -18,10 +18,10 @@
     border-radius: 10px; /* rounds the corners */
 }
 .date-time h1 {
-    font-size: 3em;
+    font-size: 1.5em;
 }
 .date-time p {
-    font-size: 2em; /* Xem = (# of px) / 14 */
+    font-size: 1.5em; /* Xem = (# of px) / 14 */
     color: #7E36D6;
 }
 
